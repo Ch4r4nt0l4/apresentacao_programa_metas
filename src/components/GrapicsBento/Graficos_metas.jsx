@@ -27,7 +27,7 @@ ChartJS.register(
   BarElement,
   LineElement,
   PointElement,
-  ChartDataLabels // ← ESSENCIAL para que o plugin funcione!
+  ChartDataLabels 
 );
 
 
@@ -48,16 +48,16 @@ import { PiTrafficSign } from "react-icons/pi";
 
 
 
-import "./GrapicsBento.css";
+import "./Graficos_metas.css";
 import { color } from "chart.js/helpers";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const url =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQdKKNMJxtxa0eo3er_xR6MEuoNtEj7m37GWatu6zyzgNhbQpb3E4eY6mmdmqORBVQHbmOhjYfyl7ZB/pub?gid=1952842445&single=true&output=csv";
+  "";
 
 const url_financeiro = 
-   "https://docs.google.com/spreadsheets/d/e/2PACX-1vRqIsZ9Y0T__qRR4h6k3q6m1B_D6By0MO49t3pBs7vwaUs2wbNljsxMmxQ_TwWGJQB0g8L81ZhTRljD/pub?gid=440817858&single=true&output=csv"
+   "";
 
 function TabelaEGrafico() {
   const [dados, setDados] = useState([]);

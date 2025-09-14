@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
-import TabelaEGrafico from "./components/GrapicsBento/GrapicsBento";
+import TabelaEGrafico from "./components/GrapicsBento/Graficos_metas";
 
 function App() {
   return (
